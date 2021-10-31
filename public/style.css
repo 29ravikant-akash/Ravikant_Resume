@@ -1,0 +1,7 @@
+body{
+    /* background-color: #001d3d; */
+    background-image: linear-gradient(to right, rgb(12, 13, 12), rgb(87, 86, 113));;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
