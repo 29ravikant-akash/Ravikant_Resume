@@ -8,6 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Profile />
+      <div className="footer"> <h1>Thank you for visiting.</h1> </div>
     </BrowserRouter>
   );
 }

@@ -1,6 +1,20 @@
 p,h1,a{
     font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
 }
-.btm{
+.footer {
+    position: absolute;
+    right: 0;
     bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 3vh;
+    color: #20948b;
+    text-align: center;
+  }
+
+h1{
+    color: #20948b;
+    font-size: 2rem;
 }

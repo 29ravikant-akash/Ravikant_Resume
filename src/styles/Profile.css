@@ -9,7 +9,7 @@ a{
     text-decoration: none;
     font-size: 1rem;
     margin: 0;
-
+    font-size: 2vh;
 }
 
 img{
@@ -18,6 +18,36 @@ img{
     border-radius: 10%;
     border: 2px solid #2dff11 ;
     margin-bottom: 5px;
+}
+
+li{
+    list-style-type: square;
+    color: #2dff11;
+    line-height: 2.6vh;
+    font-weight: 600;
+    color: #2dff11;
+    text-decoration: none;
+    margin: 1px;
+    font-size: 2vh;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    text-indent: -1em;
+}
+p{
+    color: #2dff11;
+}
+
+
+.container {
+    margin: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .flex_container{
@@ -31,20 +61,14 @@ img{
 .flex_right{
     flex: 10%;
 }
-
-
-li{
-    list-style-type: square;
-    color: #2dff11;
-    line-height: 2.6vh;
-    font-weight: 600;
-    color: #2dff11;
-    text-decoration: none;
-    margin: 1px;
-    font-size: 1rem;
-    font-weight: bold;
-    padding-bottom: 1rem;
+.mydetail{
+    text-align-last:auto;
 }
-p{
-    color: #2dff11;
-}
+
+/* responsive css */
+
+@media screen and (min-width: 415px){
+    .container-fluid {
+      flex-direction: row;
+    }
+  }
